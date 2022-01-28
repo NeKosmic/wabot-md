@@ -1,0 +1,49 @@
+{
+  "name": "wabot-md-test",
+  "version": "0.0.5",
+  "description": "Full errores xd ",
+  "main": "main.js",
+  "directories": {
+    "lib": "libreria"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js",
+    "postinstall": "npm i typescript -g && tsc -p ./node_modules/@adiwajshing/baileys"
+  },
+  "keywords": [
+    "termux",
+    "baileys",
+    "whatsapp",
+    "baileys-md",
+    "bot"
+  ],
+  "author": "Matt_M",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.0.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "axios": "^0.21.1",
+    "chalk": "^4.1.2",
+    "file-type": "^16.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "hotswap": "^1.1.0",
+    "jimp": "^0.16.1",
+    "moment-timezone": "^0.5.34",
+    "node-fetch": "^2.6.6",
+    "pino": "^7.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "sharp": "^0.29.3"   
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
